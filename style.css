@@ -33,6 +33,11 @@
 
 /*Estilizando página principal*/
 
+.principal{
+    background: url(imagens/092caf303fe02d05cf6cb140493cdddc95f2c2c1r1-498-537_hq.gif);
+    background-size: cover;
+    height: 1200px;
+}
 .container{
     width: 960px;
     margin: 0 auto;
