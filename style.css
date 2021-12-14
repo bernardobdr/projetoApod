@@ -88,9 +88,9 @@ header{
 #imagem{
     color:#FFF;
 }
-#imagemNasa #foto{
-    width: 600px;
-    height: 600px;
+#foto{
+    max-width: 600px;
+    max-height: 600px;
 }
 /*Estilizando rodapé*/
 footer{
