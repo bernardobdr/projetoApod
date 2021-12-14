@@ -36,7 +36,7 @@ header{
     height: 800px;
 }
 .container{
-    width: 1080px;
+    width: 960px;
     margin: 20px auto;
 }
 .data{
@@ -72,6 +72,10 @@ header{
 }
 #descricaoFoto{
     color: #FFF;
+    margin: 20px auto;
+}
+#decricaoFoto p{
+    text-align: center;
 }
 /*Estilizando rodapé*/
 footer{
