@@ -46,11 +46,11 @@
     height: 80px;
     color: #111;
     border: 1px solid #111;
-    margin:5px;
     padding: 30px;
     font-size: 18pt;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 .data input{
     width: 220px;
