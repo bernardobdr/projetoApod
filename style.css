@@ -56,13 +56,10 @@
     width: 220px;
     height: 40px;
 }
-
-
-
-
-
-
-
+.enviar{
+    width: 120px;
+    height: 40px;
+}
 
 /*Estilizando rodapé*/
 .footer{
