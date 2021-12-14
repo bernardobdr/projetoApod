@@ -7,21 +7,20 @@
     font-size: 14pt;
 }
 /*Estilizando cabeçalho*/
-.header{
-    width: 100%;
-    height: 120px;
-    background: #111;
+body{
+    background:url(imagens/espaco.gif) repeat center;
+    height: 800px;
+}
+header{
+    border: 1px solid #FFF;
 }
 .header-container{
     width: 960px;
-    margin: 0 auto;
+    margin:10px auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-}
-.logo-nasa{
-    padding-top: 15px;
 }
 .titulo-header{
     color: #FFF;
@@ -30,22 +29,21 @@
     text-transform: uppercase;
     padding-top: 10px;
 }
-
 /*Estilizando página principal*/
 
 .principal{
-    background: #c3c3c3;
+    background:url(imagens/espaco.gif) repeat center;
     height: 800px;
 }
 .container{
     width: 1080px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 .data{
     width: 100%;
     height: 80px;
-    color: #111;
-    border: 1px solid #111;
+    color: #FFF;
+    border: 1px solid #FFF;
     padding: 30px;
     font-size: 18pt;
     display: flex;
@@ -62,12 +60,12 @@
 }
 
 /*Estilizando rodapé*/
-.footer{
+footer{
     width: 100%;
     height: 120px;
-    background: #111;
+    border: 1px solid #FFF;
 }
-.footer p {
+footer p {
     margin: 0px;
     text-align: center;
     padding: 45px;
