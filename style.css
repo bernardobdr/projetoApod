@@ -52,7 +52,7 @@ header{
     color: #FFF;
     border: 1px solid #FFF;
     padding: 30px;
-    font-size: 18pt;
+    font-size: 16pt;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -83,6 +83,7 @@ header{
 }
 #decricaoFoto p{
     text-align: center;
+    font-size: 14pt;
 }
 #imagem{
     color:#FFF;
@@ -96,7 +97,7 @@ footer{
     width: 100%;
     height: 120px;
     border: 1px solid #FFF;
-    margin-top: 180px;
+    margin-top: 200px;
 }
 footer p {
     margin: 0px;

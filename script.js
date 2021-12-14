@@ -7,7 +7,7 @@ $('.enviar').click(function(){
         type: 'GET',
         success: function(imagemDoDia){
             console.log(imagemDoDia)
-            $('#titulo').text(imagemDoDia.tltle)
+            $('#titulo').text(imagemDoDia.title)
             $('#descricaoFoto').text(imagemDoDia.explanation)
             $('#foto').attr('src', imagemDoDia.url)
             
