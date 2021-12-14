@@ -5,8 +5,8 @@ $('.enviar').click(function(){
     $.ajax({
         url:`https://api.nasa.gov/planetary/apod?api_key=If038K0asBSljpY2HtQWwy0fefuPkqSBsxCpeKqT&date=${dataFoto}`,
         type: 'GET',
-        success: function(pegarImagem){
-            console.log(pegarImagem)
+        success: function(imagemDoDia){
+            console.log(imagemDoDia)
         }
     })
 })
