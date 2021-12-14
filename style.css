@@ -9,7 +9,6 @@
 /*Estilizando cabeçalho*/
 body{
     background:url(imagens/espaco.gif) repeat center;
-    height: 800px;
 }
 header{
     border: 1px solid #FFF;
@@ -24,6 +23,7 @@ header{
     align-items: center;
 }
 .titulo-header{
+    font-size: 15pt;
     color: #FFF;
     text-align: center;
     letter-spacing: 1px;
@@ -35,6 +35,12 @@ header{
 .principal{
     background:url(imagens/espaco.gif) repeat center;
     height: 800px;
+}
+#titulo{
+    color: #FFF;
+    margin: 10px;
+    font-size: 15pt;
+    padding: 10px;
 }
 .container{
     width: 960px;
@@ -78,11 +84,19 @@ header{
 #decricaoFoto p{
     text-align: center;
 }
+#imagem{
+    color:#FFF;
+}
+#imagemNasa #foto{
+    width: 600px;
+    height: 600px;
+}
 /*Estilizando rodapé*/
 footer{
     width: 100%;
     height: 120px;
     border: 1px solid #FFF;
+    margin-top: 180px;
 }
 footer p {
     margin: 0px;
